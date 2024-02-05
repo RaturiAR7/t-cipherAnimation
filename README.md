@@ -1,5 +1,10 @@
-# There are two animation components: 1.Animation1 and 2.Animation2
+# There are two animation components:
 
-# Before both the component one and two show the same animation in different ways
+1.Animation1
+2.Animation2
 
-# You can toggle the two animations by uncommenting one of the following animation components from App.jsx file.
+Both the component one and two show the same animation in different ways
+
+# Note
+
+You can toggle the two animations by uncommenting one of the following animation components from App.jsx file.
