@@ -63,9 +63,7 @@
 .space > div {
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
   position: absolute;
   top: 106%;
 }
@@ -81,7 +79,7 @@ img {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  margin-bottom: 190px;
+  margin-top: 40px;
 }
 .sun {
   height: 400px;
