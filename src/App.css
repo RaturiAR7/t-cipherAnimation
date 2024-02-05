@@ -5,10 +5,6 @@
   color: #cac2b9;
   font-family: math;
 }
-.hello {
-  width: 100%;
-  height: 100vh;
-}
 .main {
   position: relative;
   display: flex;
@@ -18,6 +14,7 @@
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(#511887, #1c0d49);
+  overflow: hidden;
 }
 .initial {
   display: flex;
@@ -59,10 +56,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
 }
 .space > div {
   display: flex;
