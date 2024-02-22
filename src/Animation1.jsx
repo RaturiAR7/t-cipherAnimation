@@ -1,8 +1,7 @@
 import "./App.css";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState, lazy, Suspense } from "react";
 
-import RoboRender from "./RoboRender"; ///3 -D model rendering component
-
+const RoboRender = lazy(() => import("./RoboRender.jsx"));
 const Animation1 = () => {
   const sectionRef = useRef(null);
   const [animate, setAnimate] = useState(false);
@@ -48,7 +47,9 @@ const Animation1 = () => {
         </div>
         <div className='btn-container'>
           <button className='btn'>Schedule a call</button>
-          <RoboRender /> {/* {3D model rendering component} */}
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <RoboRender />
+          </Suspense>
         </div>
       </div>
       {animate && (

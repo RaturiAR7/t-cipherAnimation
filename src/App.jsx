@@ -1,5 +1,4 @@
 import Animation1 from "./Animation1";
-
 const App = () => {
   return (
     <div>
